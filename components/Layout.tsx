@@ -35,13 +35,13 @@ const Navbar = ({ activePage, setActivePage }: { activePage: string; setActivePa
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-slate-900/98 backdrop-blur-lg py-3 shadow-xl border-b border-white/10' : 'bg-transparent py-6'}`}>
+    <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${scrolled ? 'bg-[#0f172a] py-3 shadow-2xl border-b border-white/10' : 'bg-gradient-to-b from-slate-950/90 via-slate-950/40 to-transparent py-7'}`}>
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
         <div
           className="flex items-center space-x-3 cursor-pointer group"
           onClick={() => setActivePage('home')}
         >
-          <img src="/assets/logo.png" alt="High Tide Logo" className="h-20 w-auto group-hover:scale-105 transition-transform" />
+          <img src="/assets/logo.png" alt="High Tide Logo" className="h-20 w-auto group-hover:scale-105 transition-transform drop-shadow-[0_0_10px_rgba(0,0,0,0.5)]" />
         </div>
 
         {/* Desktop Nav */}
@@ -50,7 +50,7 @@ const Navbar = ({ activePage, setActivePage }: { activePage: string; setActivePa
             <button
               key={item.id}
               onClick={() => setActivePage(item.id)}
-              className={`text-sm font-bold tracking-wide uppercase transition-colors ${activePage === item.id ? 'text-cyan-400' : 'text-white hover:text-cyan-300'
+              className={`text-[13px] font-black tracking-widest uppercase transition-all duration-300 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] ${activePage === item.id ? 'text-cyan-400' : 'text-white hover:text-cyan-400'
                 }`}
             >
               {item.name}
