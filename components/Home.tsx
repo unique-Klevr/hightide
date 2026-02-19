@@ -255,7 +255,7 @@ export const Home: React.FC<{ setActivePage: (p: string) => void }> = ({ setActi
                   <input type="tel" className="w-full p-6 rounded-2xl bg-slate-50 border border-slate-200 text-slate-950 focus:outline-none focus:border-blue-600 transition-all font-medium" />
                 </div>
                 <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-black py-7 rounded-2xl shadow-2xl transition-all transform hover:scale-[1.02] active:scale-95 shadow-blue-600/30">
-                  Send to Trey Zelasko
+                  Send Request to High Tide
                 </button>
                 <div className="flex items-center justify-center gap-3 mt-6">
                   <span className="relative flex h-3 w-3">

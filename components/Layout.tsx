@@ -41,11 +41,7 @@ const Navbar = ({ activePage, setActivePage }: { activePage: string; setActivePa
           className="flex items-center space-x-3 cursor-pointer group"
           onClick={() => setActivePage('home')}
         >
-          <img src="/assets/logo.jpeg" alt="High Tide Logo" className="h-14 w-auto group-hover:scale-105 transition-transform" />
-          <div className="hidden sm:block">
-            <h1 className="text-white font-black text-2xl tracking-tighter leading-none">HIGH TIDE</h1>
-            <p className="text-cyan-400 text-[10px] font-bold tracking-[0.2em] uppercase">Power Wash</p>
-          </div>
+          <img src="/assets/logo.png" alt="High Tide Logo" className="h-20 w-auto group-hover:scale-105 transition-transform" />
         </div>
 
         {/* Desktop Nav */}
@@ -105,8 +101,7 @@ const Footer = ({ setActivePage }: { setActivePage: (p: string) => void }) => (
     <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
       <div>
         <div className="flex items-center space-x-3 mb-6">
-          <img src="/assets/logo.jpeg" alt="High Tide Logo" className="h-16 w-auto" />
-          <h2 className="text-white font-bold text-2xl tracking-tighter">HIGH TIDE</h2>
+          <img src="/assets/logo.png" alt="High Tide Logo" className="h-24 w-auto" />
         </div>
         <p className="mb-6 text-sm leading-relaxed">
           Premium exterior cleaning for South Carolina. We specialize in luxury residential properties and high-performance commercial cleaning.
@@ -147,7 +142,7 @@ const Footer = ({ setActivePage }: { setActivePage: (p: string) => void }) => (
       <div>
         <h3 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Company</h3>
         <ul className="space-y-4 text-sm">
-          <li>About Trey Zelasko</li>
+          <li>About High Tide Power Wash</li>
           <li>Hours: {BRAND.hours}</li>
           <li>Licensed & Insured</li>
           <li>SC Registered Business</li>

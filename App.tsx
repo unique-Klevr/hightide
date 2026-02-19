@@ -126,7 +126,7 @@ const App: React.FC = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent"></div>
                 <div className="absolute bottom-10 left-10">
-                  <h1 className="text-4xl lg:text-5xl font-black text-white mb-2 tracking-tighter">About Trey Zelasko</h1>
+                  <h1 className="text-4xl lg:text-5xl font-black text-white mb-2 tracking-tighter">About High Tide Power Wash</h1>
                   <p className="text-cyan-400 font-bold uppercase tracking-widest text-sm">Founder & Lead Technician</p>
                 </div>
               </div>
